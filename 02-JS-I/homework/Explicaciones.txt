@@ -1,0 +1,11 @@
+Variable: un "lugar" donde se puede guardar un valor, para recuperarlo después. Ese valor puede cambiar (variar).
+
+Strings: tipo de dato compuesto por una "hilera" de caracteres (aunque puede ser un solo caracter también).Se define entre comillas.
+
+Funciones: son "callable objects" (objetos invocables), conformados por un conjunto de statements que reciben un input y devuelven un output. Permiten ser más eficientes y prolijos a la hora de codear, al "ahorrarnos" repetir las mismas líneas una y otra vez.
+	Argumentos: son objetos que requieren determinadas funciones, para obtener su input. Se indican a continuación del nombre de la función, entre paréntesis, separados por comas (en caso de haber varios).
+	Return: devuelve un valor (output de la función) y evita que se continúe ejecutando el código que se encuentra a continuación (dentro de la función).
+
+Declaraciones if: se utilizan para contol de flujo. Permite verificar si una determinada condición se cumple o no (true o false), y realizar una determinada acción en uno y otro caso.
+
+Valores booleanos (true, false): es uno de los tipos de datos existentes. Puede tomar solo dos valores: true o false.
