@@ -1,0 +1,7 @@
+For: Es un statement que permite hacer un bucle (repetir un bloque de código una y otra vez hasta que se deje de cumplir una determinada condición).
+
+&&: Es un operador lógico que significa "y". Evaluará la veracidad (ser true) de las expresiones. Si al menos una de ellas es false, && devolverá false.
+
+||: Es un operador lógico que significa "O". Evaluará la veracidad (ser true) de las expresiones. Si una o ambas son true, devolverá true. Si ambas son false, devolverá false.
+
+!: Es un operador lógico que significa "Not" (no). Devolverá el valor booleano opuesto de la expresión en cuestión.

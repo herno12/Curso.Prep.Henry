@@ -201,25 +201,39 @@ function esVerdadero(valor){
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
-  //Escribe tu código aquí   
-  
+  //Escribe tu código aquí 
+  var lista =[];
+  for (var i=0;i<11;i++){
+    lista.push(6*i);
+  }
+    return lista;
 }
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  
+  if (numero/100>=1 && numero/100<=9.99) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  var i =1;
+    do {
+    numero=numero+5;
+    i++;
+  } while (i<=8);
+  return numero;
 }
 
 
 // No modificar nada debajo de esta línea
-// --------------------------------
+// -------------------------------- 
 
 module.exports = {
   obtenerMayor,
