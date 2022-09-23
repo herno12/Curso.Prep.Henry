@@ -1,0 +1,1 @@
+Array: Es un tipo de variable que permite almacenar en ella múltiples elementos de todos los tipos (string, números, boolean, etc). Cada uno de ellos cuenta con una posición, que comienza desde la 0. También es un tipo de objeto.
