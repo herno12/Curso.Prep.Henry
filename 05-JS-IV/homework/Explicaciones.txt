@@ -1,0 +1,9 @@
+Objeto: es un contenedor de (todo tipo de) datos, los cuales se encuentran organizados en propiedades, mediante el sistema key-value (clave-valor); siendo "key" el identificador, y "value", el valor guardado en esa clave. En el objeto se guardan colecciones de de pares clave-valor.
+
+Propiedades: se encuentran dentro del objeto. Son las key (claves) que sirven como identificador para acceder a los valores guardados en ellas.
+
+Método: función que es propiedad de un objeto.
+
+Bucle for…in: sirve para recorrer o iterar dentro de los pares clave-valor de un objeto.
+
+Notación de puntos vs notación de corchetes: ambas sirven para crear y acceder a propiedades de los objetos. La notación de puntos es más sencilla y ráda de tipear, pero es literal (no puede usarse para invocar variables, funciones, etc). La notación de corchetes es más complicada y lenta de tipear, pero no es literal (puede usarse para invocar variables, funciones, etc).

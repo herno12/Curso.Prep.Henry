@@ -72,13 +72,12 @@ function tieneEmail(usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
-  if (usuario['email']!==undefined) {
+  if (usuario['email']!==undefined && usuario['email']!==null) {
     return true;
   } else {
     return false;
   }
 }
-//TEST ME DA Q ESTA MAL PERO NO SE PORQUE!!
 
 
 function tienePropiedad(objeto, propiedad) {
@@ -86,7 +85,7 @@ function tienePropiedad(objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (objeto[propiedad]!==undefined){
+  if (objeto[propiedad]!==undefined  ){
     return true;
   } else {
     return false;
@@ -158,7 +157,10 @@ function agregarMetodoCalculoDescuento(producto) {
   // producto.porcentajeDeDescuento -> 0.2 (o simplemente ".2")
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
-
+  producto.calcularPrecioDescuento= function calcularPrecioDescuento ()  {
+   return this.precio -(this.precio * this.porcentajeDeDescuento);
+ };
+  return producto;
 }
 
 // No modificar nada debajo de esta línea
