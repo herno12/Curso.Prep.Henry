@@ -1,0 +1,3 @@
+Prototype: propiedad a través de la que podemos agregar un método a una clase, haciéndolo accesible para todas las instancias, sin necesidad de repetir el código en cada una de ellas.
+
+Constructors (de Clases): función que permite crear una clase (plantilla para la creación de objetos de datos, según un model predefinido), y que sus propiedades sean comunes a todas las instancias que se creen.
