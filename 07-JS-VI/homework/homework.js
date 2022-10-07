@@ -30,17 +30,31 @@ function operacionMatematica(n1, n2, cb) {
   return cb (n1,n2);
 }
 
+
 function sumarArray(numeros, cb) {
   // Suma todos los números enteros (int/integers) de un array ("numeros")
   // Pasa el resultado a `cb`
   // No es necesario devolver nada
   //Tu código:
-  suma=0;
-  numeros.forEach(function (elemento){
-    suma= suma+ elemento;
-  })
-  cb (suma);
+  var suma= numeros.reduce(function(acc,elemento){
+   return acc+elemento;
+    })
+  cb(suma);
 }
+
+
+// function sumarArray(numeros, cb) {
+//   // Suma todos los números enteros (int/integers) de un array ("numeros")
+//   // Pasa el resultado a `cb`
+//   // No es necesario devolver nada
+//   //Tu código:
+//   suma=0;
+//   numeros.forEach(function (elemento){
+//     suma= suma+ elemento;
+//   })
+//   cb (suma);
+// }
+// OTRA FORMA DE HACERLO.
 
 function forEach(array, cb) {
   // Itera sobre la matriz "array" y pasa los valores al callback uno por uno
